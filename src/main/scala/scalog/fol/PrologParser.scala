@@ -68,8 +68,4 @@ object PrologParser extends RegexParsers {
     case _ => None
   }
 
-  def main(args: Array[String]): Unit = {
-    println(parse(fact,"f(mul,z,f(add, x, y))."))
-  }
-
 }

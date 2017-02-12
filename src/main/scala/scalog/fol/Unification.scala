@@ -45,9 +45,3 @@ object Unification {
   }
 
 }
-
-
-unification(
-  Predicate(parent, List(Atom(sam), Atom(peter))),
-  Predicate(parent, List(Atom(sam), Atom(peter)))
-)
